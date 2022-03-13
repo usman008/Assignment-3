@@ -1,0 +1,212 @@
+Program 1:
+
+
+
+String firstName = 'Andrea';
+  String lastName = 'Bizzotto';
+  int age = 36;
+  double height = 1.84;
+
+  print(firstName);
+  print(lastName);
+  print(age.toString());
+  print(height);
+
+  print('My name is '+ firstName + ' ' + lastName);
+  print('My name is $firstName $lastName ');
+  print("My name is $firstName, I'm $age years old, I'm $height meter tall");
+
+  print("Next year i'll be ${age+1} years old");
+  print("Next year i'll be" + (age+1).toString() + " " + "years old");
+
+
+--------------
+Program 2:
+
+String title = "Dart course";
+  print(title);
+  print(title.toUpperCase());
+  print(title.toLowerCase());
+
+
+----------------
+Program 3:
+
+int a= 10;
+  print('$a');
+  print('\$a');
+  print('\$$a');
+
+----------------
+Program 4:
+
+int x= 1;
+  int y= x++;
+  int z= --y;
+  print('X: $x, Y:$y, z:$z');
+
+
+------------
+Program 5:
+
+double tempFarenheit = 86;
+  double farenheitCelsius = (tempFarenheit-32)/1.8;
+  print(farenheitCelsius);
+
+
+-----------
+Program 6:
+
+double temperature = 20;
+  int value = 5;
+  String pizza = 'pizza';
+  String pasta = 'pasta';
+
+  print('The temperature is: $temperature\C');
+  print('$value + $value = makes ${value+value}' );
+  print('I like $pizza and $pasta');
+
+
+------------
+Program 7:
+
+
+var temperature = 20;
+  var value = 5;
+  var pizza = 'pizza';
+  print('I like $pizza');
+  var pasta = 'pasta';
+  pizza = "spicy pizza";
+
+  print('The temperature is: $temperature\C');
+  print('$value + $value = makes ${value+value}' );
+  
+  print('I like $pizza and $pasta');
+  
+
+
+---------
+Program 8:
+
+const title = 'Dart Course';
+  final titleUppercased = title.toUpperCase();
+  print(titleUppercased);
+}
+
+
+
+--------------
+
+Assignment 2:
+
+
+
+String rollNo = '22';
+
+  print(int.parse(rollNo));
+  //22
+
+  print(double.parse(rollNo));
+  //22.0
+
+  int age = 22;
+  double height = 5.7;
+  bool pass = true;
+
+  print(age.toString());
+  //22
+
+  print(height.toString());
+  //5.7
+
+  print(pass.toString());
+  //true
+
+
+------------
+
+
+
+int? a;
+  print(a);
+
+
+
+
+-------
+
+
+
+
+stdout.write('Enter Radius');
+  final radiusInStr = stdin.readLinesync();
+  double radius = double.parse(radiusInStr);
+  int radius = 10;
+  double area = 4*3.14*radius*radius;
+  double volume = (4/3)*3.14*radius*radius*radius;
+  
+  print('area ${area.toString()}');
+  print('volume: ${volume.toStringAsFixed(2)}');
+
+
+
+--------------
+
+
+double mile = 3.4;
+double oneMile = 1.609;
+double kilometer = mile*oneMile;
+
+print('kilometer ${kilometer}');
+
+
+--------------------
+
+final rollNo =2;
+final age = 22;
+final regNo  = 11;
+final phoneNo = 123;
+
+final sum = rollNo+age+regNo+phoneNo;
+print('sum ${sum}');
+
+
+
+final average = (rollNo+age+regNo+phoneNo)/4;
+print('Average  ${average}');
+
+
+final product = rollNo*age*regNo*phoneNo;
+print('Product  ${product}');
+
+
+------------------------
+
+
+
+final age = 22;
+final month = age*12;
+final Days = age*365;
+
+print('Month : ${month}');
+print('Days : ${Days}');
+
+
+
+-------------------
+
+
+final totalPages = 100;
+  final pagesRead = 5;
+  final bookDays = 4;
+
+
+  final totalPagesRead = pagesRead*bookDays;
+
+  final remaningPages = totalPages-totalPagesRead;
+  print('Total pages Read : ${totalPagesRead}');
+  print('Remaning Pages  : ${remaningPages}');
+
+
+
+
